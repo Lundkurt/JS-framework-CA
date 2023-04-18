@@ -1,0 +1,78 @@
+body {
+  font-family: 'montserrat';
+  margin: 0;
+ }
+ 
+ nav {
+  background: rgb(0, 0, 0);
+  padding: 1rem;
+ }
+ 
+ .nav-link {
+  color: rgb(255, 255, 255);
+  margin-right: 10px;
+  text-decoration: none;
+ }
+ 
+ .container {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 1rem;
+ }
+
+ form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+ }
+
+ .error {
+  color: red;
+ }
+
+ .success {
+  color: green;
+ }
+
+ 
+
+ 
+
+ /* Index */
+ .games-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+ }
+
+ .game-card {
+  display: flex;
+  flex-direction: column-reverse;
+  padding: 5px;
+  border-radius: 2px;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.3);
+  width: 300px;
+  gap: 5px;
+  margin: auto;
+  text-align: center;
+ }
+
+ .game-card a {
+  text-decoration: none;
+  color: black;
+  text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.2);
+ }
+
+ .game-card a:hover {
+  text-shadow:  1px 1px 5px rgba(0, 0, 0, 0.5);
+ }
+
+ .games-img {
+  margin: auto;
+ }
+
+ /* login */
+
+ fieldset input, fieldset button {
+  margin: 5px;
+ }
